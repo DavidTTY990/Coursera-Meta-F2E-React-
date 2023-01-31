@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Little Lemon</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <body>
+            <style>
+                div {
+                border: 5px solid black;
+                padding: 5px;
+                }
+            </style>  
+            <div>
+                <div>
+            <h1>Our menu</h1>
+            <h2>Falafel</h2>
+            <p>Chickpea, herbs and spices. damned tasty.</p>
+             <!-- this is a comment -->
+            <img src="falafel.jpeg" width= "240px" height="170px" alt="a plate of tasty falafel.">
+            <h2>Pasta Salad</h2>
+            <p>Lettuce, vegetables and mozzarella. you can't missed it.</p>
+            <img src="salad.jpeg" width= "240px" height="180px" alt="a plate of tasty salad.">
+            <br>
+            <a href="about.html">all about us</a>
+            
+            <style>
+                table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                }
+            </style>
+            <table>
+                <tr>
+                    <th>Dish</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Fallafel</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                <td>Salad</td>
+                <td>$500</td>
+                </tr>
+            </table>
+            <!-- Input type: text -->
+            <form action ="/regestration" method="POST">
+                <label for="username">Username</label><br>
+                <input type="text" name= "username" /><br>
+                <label for="password">Password</label><br>
+                <input type="password" />
+                <input type="submit" />
+            </form>
+            <br>
+            <!-- Input type: multiline text -->
+            <label for="multiline">Type something</label><br>
+            <textarea name="multiline" rolls="5"></textarea> 
+            <!-- different types of form: Text, Password, Checkbox, Radio, Textarea, Select, Drop down list -->
+            <br>
+            <label for="dessert">Choose a dessert you like!</label><br>
+            <select name="dessert">
+                <option value="chocolate">Chocolate</option>
+                <option value="buttercake">Butter cake</option>
+            </select>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+        </body>
+    </head>
+</html>
